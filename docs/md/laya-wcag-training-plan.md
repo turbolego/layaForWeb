@@ -31,11 +31,11 @@
 
 ### 1.3 Next Steps
 - [x] Create initial Kaggle notebook with data loading skeleton
-- [ ] Add data loading for WCAG 2.2 training corpus
-- [ ] Add model architecture (multi-label classification heads)
-- [ ] Add training loop
-- [ ] Add evaluation metrics
-- [ ] Add ONNX export and quantization
+- [x] Add data loading for WCAG 2.2 training corpus
+- [x] Add model architecture (multi-label classification heads)
+- [x] Add training loop
+- [x] Add evaluation metrics
+- [x] Add ONNX export and quantization
 
 ---
 
