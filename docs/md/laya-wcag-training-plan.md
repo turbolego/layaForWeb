@@ -208,15 +208,23 @@ const questions = {
 - [ ] Published to GitHub with release artifacts
 - [ ] Documentation updated
 
+### 1.3 Next Steps
+- [x] Create initial Kaggle notebook with data loading skeleton
+- [ ] Add data loading for WCAG 2.2 training corpus
+- [ ] Add model architecture (multi-label classification heads)
+- [ ] Add training loop
+- [ ] Add evaluation metrics
+- [ ] Add ONNX export and quantization
+
 ---
 
-## Next Steps
+## Current Status
 
-1. **Immediate:** Create Kaggle notebook with data loading and preprocessing
-2. **Day 1-2:** Begin training with initial dataset
-3. **Day 3-4:** Evaluate, tune hyperparameters
-4. **Day 5:** Export and integrate
-5. **Day 6:** Publish and document
+**Notebook:** `/notebooks/laya_wcag_training.ipynb`
+- Initial scaffold with dependencies and model loading
+- Ready for data loading and training code
+
+**Repository:** https://github.com/turbolego/layaForWeb
 
 ---
 
