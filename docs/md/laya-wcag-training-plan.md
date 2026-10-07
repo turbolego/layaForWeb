@@ -29,6 +29,14 @@
   - `level` (A, AA, AAA)
   - `description` (natural language violation description)
 
+### 1.3 Next Steps
+- [x] Create initial Kaggle notebook with data loading skeleton
+- [ ] Add data loading for WCAG 2.2 training corpus
+- [ ] Add model architecture (multi-label classification heads)
+- [ ] Add training loop
+- [ ] Add evaluation metrics
+- [ ] Add ONNX export and quantization
+
 ---
 
 ## Phase 2: Model Training
@@ -177,7 +185,7 @@ const questions = {
 
 | Phase | Duration | Status |
 |-------|----------|--------|
-| 1. Create Kaggle Notebook | 1-2 days | Pending |
+| 1. Create Kaggle Notebook | 1-2 days | [x] Initial scaffold |
 | 2. Model Training | 2-3 days | Pending |
 | 3. Evaluation | 1 day | Pending |
 | 4. Export & Quantization | 1 day | Pending |
@@ -208,14 +216,6 @@ const questions = {
 - [ ] Published to GitHub with release artifacts
 - [ ] Documentation updated
 
-### 1.3 Next Steps
-- [x] Create initial Kaggle notebook with data loading skeleton
-- [ ] Add data loading for WCAG 2.2 training corpus
-- [ ] Add model architecture (multi-label classification heads)
-- [ ] Add training loop
-- [ ] Add evaluation metrics
-- [ ] Add ONNX export and quantization
-
 ---
 
 ## Current Status
@@ -226,8 +226,4 @@ const questions = {
 
 **Repository:** https://github.com/turbolego/layaForWeb
 
----
-
-**Created:** 2026-10-07
-**Author:** Hermes Agent
-**Status:** Ready for execution
+**Plan:** `docs/md/laya-wcag-training-plan.md`
