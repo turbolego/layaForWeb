@@ -12,6 +12,7 @@ const $ = (id) => document.getElementById(id);
 const BASES = {
   laya: { label: "Laya (general)", dir: "./model/", param: "modelBase", configKey: "modelBase" },
   typed: { label: "Laya (typed decisions)", dir: "./model-typed/", param: "modelBaseTyped", configKey: "modelBaseTyped" },
+  wcag: { label: "WCAG 2.2 Violations", dir: "./model/", param: "modelBase", configKey: "modelBase" },
 };
 let MODEL_DIR = BASES.laya.dir;
 let MANIFEST = null;
