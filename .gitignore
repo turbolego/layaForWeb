@@ -8,5 +8,7 @@ __pycache__/
 *.onnx
 *.onnx.data
 *.onnx.data.part*
+!model/
+model/laya-wcag*
 .venv/
 venv/

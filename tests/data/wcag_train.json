@@ -1,0 +1,1072 @@
+[
+  {
+    "text": "<a href=\"https://iana.org/domains/example\">Learn more</a>",
+    "questions": {
+      "wcag_color_contrast_enhanced": {
+        "type": "yes_no",
+        "instructions": "Elements must meet enhanced color contrast ratio thresholds. Level: . Elements must meet enhanced color contrast ratio thresholds. serious",
+        "criteria": {
+          "yes": "Violation detected",
+          "no": "No violation"
+        }
+      }
+    },
+    "labels": {
+      "wcag_color_contrast_enhanced": "yes"
+    },
+    "metadata": {
+      "source": "GPT-4.1",
+      "rule_id": "color-contrast-enhanced",
+      "wcag_level": "",
+      "wcag_title": "",
+      "page_url": "",
+      "checks": [
+        "Element has insufficient color contrast of 4.76 (foreground color: #58669c, background color: #eeeeee, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 7:1"
+      ]
+    }
+  },
+  {
+    "text": "<a href=\"https://iana.org/domains/example\">Learn more</a>",
+    "questions": {
+      "wcag_heading_order": {
+        "type": "yes_no",
+        "instructions": "Heading levels should only increase by one. Level: . Heading levels should only increase by one. moderate",
+        "criteria": {
+          "yes": "Violation detected",
+          "no": "No violation"
+        }
+      }
+    },
+    "labels": {
+      "wcag_heading_order": "no"
+    },
+    "metadata": {
+      "source": "GPT-4.1",
+      "rule_id": "heading-order",
+      "wcag_level": "",
+      "wcag_title": "",
+      "page_url": "",
+      "checks": [
+        "Heading order invalid"
+      ]
+    }
+  },
+  {
+    "text": "<a href=\"https://iana.org/domains/example\">Learn more</a>",
+    "questions": {
+      "wcag_target_size": {
+        "type": "yes_no",
+        "instructions": "All touch targets must be 24px large, or leave sufficient space. Level: . All touch targets must be 24px large, or leave sufficient space. serious",
+        "criteria": {
+          "yes": "Violation detected",
+          "no": "No violation"
+        }
+      }
+    },
+    "labels": {
+      "wcag_target_size": "yes"
+    },
+    "metadata": {
+      "source": "GPT-4.1",
+      "rule_id": "target-size",
+      "wcag_level": "",
+      "wcag_title": "",
+      "page_url": "",
+      "checks": [
+        "Target has insufficient size (132.9px by 18px, should be at least 24px by 24px)",
+        "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.2px instead of at least 24px.",
+        "Target has insufficient size (60px by 18px, should be at least 24px by 24px)"
+      ]
+    }
+  },
+  {
+    "text": "<aside>\n                    <h5>Aside Heading</h5>\n                    <p>Aside content.</p>\n                </aside>",
+    "questions": {
+      "wcag_landmark_complementary_is_top_level": {
+        "type": "yes_no",
+        "instructions": "Aside should not be contained in another landmark. Level: . Aside should not be contained in another landmark. moderate",
+        "criteria": {
+          "yes": "Violation detected",
+          "no": "No violation"
+        }
+      }
+    },
+    "labels": {
+      "wcag_landmark_complementary_is_top_level": "no"
+    },
+    "metadata": {
+      "source": "GPT-4.1",
+      "rule_id": "landmark-complementary-is-top-level",
+      "wcag_level": "",
+      "wcag_title": "",
+      "page_url": "",
+      "checks": [
+        "The null landmark is contained in another landmark."
+      ]
+    }
+  },
+  {
+    "text": "<aside>\n                    <h5>Aside Heading</h5>\n                    <p>Aside content.</p>\n                </aside>",
+    "questions": {
+      "wcag_target_size": {
+        "type": "yes_no",
+        "instructions": "All touch targets must be 24px large, or leave sufficient space. Level: . All touch targets must be 24px large, or leave sufficient space. serious",
+        "criteria": {
+          "yes": "Violation detected",
+          "no": "No violation"
+        }
+      }
+    },
+    "labels": {
+      "wcag_target_size": "yes"
+    },
+    "metadata": {
+      "source": "GPT-4.1",
+      "rule_id": "target-size",
+      "wcag_level": "",
+      "wcag_title": "",
+      "page_url": "",
+      "checks": [
+        "Target has insufficient size (132.9px by 18px, should be at least 24px by 24px)",
+        "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.2px instead of at least 24px.",
+        "Target has insufficient size (60px by 18px, should be at least 24px by 24px)"
+      ]
+    }
+  },
+  {
+    "text": "<a href=\"https://iana.org/domains/example\">Learn more</a>",
+    "questions": {
+      "wcag_color_contrast_enhanced": {
+        "type": "yes_no",
+        "instructions": "Elements must meet enhanced color contrast ratio thresholds. Level: . Elements must meet enhanced color contrast ratio thresholds. serious",
+        "criteria": {
+          "yes": "Violation detected",
+          "no": "No violation"
+        }
+      }
+    },
+    "labels": {
+      "wcag_color_contrast_enhanced": "yes"
+    },
+    "metadata": {
+      "source": "GPT-4.1",
+      "rule_id": "color-contrast-enhanced",
+      "wcag_level": "",
+      "wcag_title": "",
+      "page_url": "",
+      "checks": [
+        "Element has insufficient color contrast of 4.76 (foreground color: #58669c, background color: #eeeeee, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 7:1"
+      ]
+    }
+  },
+  {
+    "text": "<a href=\"https://iana.org/domains/example\">Learn more</a>",
+    "questions": {
+      "wcag_color_contrast": {
+        "type": "yes_no",
+        "instructions": "Elements must meet minimum color contrast ratio thresholds. Level: . Elements must meet minimum color contrast ratio thresholds. serious",
+        "criteria": {
+          "yes": "Violation detected",
+          "no": "No violation"
+        }
+      }
+    },
+    "labels": {
+      "wcag_color_contrast": "yes"
+    },
+    "metadata": {
+      "source": "GPT-4.1",
+      "rule_id": "color-contrast",
+      "wcag_level": "",
+      "wcag_title": "",
+      "page_url": "",
+      "checks": [
+        "Element has insufficient color contrast of 2.23 (foreground color: #0000ee, background color: #000000, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+      ]
+    }
+  },
+  {
+    "text": "<a href=\"https://iana.org/domains/example\">Learn more</a>",
+    "questions": {
+      "wcag_heading_order": {
+        "type": "yes_no",
+        "instructions": "Heading levels should only increase by one. Level: . Heading levels should only increase by one. moderate",
+        "criteria": {
+          "yes": "Violation detected",
+          "no": "No violation"
+        }
+      }
+    },
+    "labels": {
+      "wcag_heading_order": "no"
+    },
+    "metadata": {
+      "source": "GPT-4.1",
+      "rule_id": "heading-order",
+      "wcag_level": "",
+      "wcag_title": "",
+      "page_url": "",
+      "checks": [
+        "Heading order invalid"
+      ]
+    }
+  },
+  {
+    "text": "<a href=\"https://iana.org/domains/example\">Learn more</a>",
+    "questions": {
+      "wcag_landmark_complementary_is_top_level": {
+        "type": "yes_no",
+        "instructions": "Aside should not be contained in another landmark. Level: . Aside should not be contained in another landmark. moderate",
+        "criteria": {
+          "yes": "Violation detected",
+          "no": "No violation"
+        }
+      }
+    },
+    "labels": {
+      "wcag_landmark_complementary_is_top_level": "no"
+    },
+    "metadata": {
+      "source": "GPT-4.1",
+      "rule_id": "landmark-complementary-is-top-level",
+      "wcag_level": "",
+      "wcag_title": "",
+      "page_url": "",
+      "checks": [
+        "The null landmark is contained in another landmark."
+      ]
+    }
+  },
+  {
+    "text": "<a href=\"https://iana.org/domains/example\">Learn more</a>",
+    "questions": {
+      "wcag_landmark_main_is_top_level": {
+        "type": "yes_no",
+        "instructions": "Main landmark should not be contained in another landmark. Level: . Main landmark should not be contained in another landmark. moderate",
+        "criteria": {
+          "yes": "Violation detected",
+          "no": "No violation"
+        }
+      }
+    },
+    "labels": {
+      "wcag_landmark_main_is_top_level": "no"
+    },
+    "metadata": {
+      "source": "GPT-4.1",
+      "rule_id": "landmark-main-is-top-level",
+      "wcag_level": "",
+      "wcag_title": "",
+      "page_url": "",
+      "checks": [
+        "The main landmark is contained in another landmark."
+      ]
+    }
+  },
+  {
+    "text": "<aside>\n                    <h4>Aside Example</h4>\n                    <p>This is an <strong>aside</strong> element.</p>\n                </aside>",
+    "questions": {
+      "wcag_landmark_complementary_is_top_level": {
+        "type": "yes_no",
+        "instructions": "Aside should not be contained in another landmark. Level: . Aside should not be contained in another landmark. moderate",
+        "criteria": {
+          "yes": "Violation detected",
+          "no": "No violation"
+        }
+      }
+    },
+    "labels": {
+      "wcag_landmark_complementary_is_top_level": "no"
+    },
+    "metadata": {
+      "source": "GPT-4.1",
+      "rule_id": "landmark-complementary-is-top-level",
+      "wcag_level": "",
+      "wcag_title": "",
+      "page_url": "",
+      "checks": [
+        "The null landmark is contained in another landmark."
+      ]
+    }
+  },
+  {
+    "text": "<aside>\n                    <h4>Aside Example</h4>\n                    <p>This is an <strong>aside</strong> element.</p>\n                </aside>",
+    "questions": {
+      "wcag_landmark_main_is_top_level": {
+        "type": "yes_no",
+        "instructions": "Main landmark should not be contained in another landmark. Level: . Main landmark should not be contained in another landmark. moderate",
+        "criteria": {
+          "yes": "Violation detected",
+          "no": "No violation"
+        }
+      }
+    },
+    "labels": {
+      "wcag_landmark_main_is_top_level": "no"
+    },
+    "metadata": {
+      "source": "GPT-4.1",
+      "rule_id": "landmark-main-is-top-level",
+      "wcag_level": "",
+      "wcag_title": "",
+      "page_url": "",
+      "checks": [
+        "The main landmark is contained in another landmark."
+      ]
+    }
+  },
+  {
+    "text": "<aside>\n                    <h4>Aside Example</h4>\n                    <p>This is an <strong>aside</strong> element.</p>\n                </aside>",
+    "questions": {
+      "wcag_landmark_no_duplicate_main": {
+        "type": "yes_no",
+        "instructions": "Document should not have more than one main landmark. Level: . Document should not have more than one main landmark. moderate",
+        "criteria": {
+          "yes": "Violation detected",
+          "no": "No violation"
+        }
+      }
+    },
+    "labels": {
+      "wcag_landmark_no_duplicate_main": "no"
+    },
+    "metadata": {
+      "source": "GPT-4.1",
+      "rule_id": "landmark-no-duplicate-main",
+      "wcag_level": "",
+      "wcag_title": "",
+      "page_url": "",
+      "checks": [
+        "Document has more than one main landmark"
+      ]
+    }
+  },
+  {
+    "text": "<aside>\n                    <h4>Aside Example</h4>\n                    <p>This is an <strong>aside</strong> element.</p>\n                </aside>",
+    "questions": {
+      "wcag_landmark_unique": {
+        "type": "yes_no",
+        "instructions": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination. Level: . Landmarks should have a unique role or role/label/title (i.e. accessible name) combination. moderate",
+        "criteria": {
+          "yes": "Violation detected",
+          "no": "No violation"
+        }
+      }
+    },
+    "labels": {
+      "wcag_landmark_unique": "no"
+    },
+    "metadata": {
+      "source": "GPT-4.1",
+      "rule_id": "landmark-unique",
+      "wcag_level": "",
+      "wcag_title": "",
+      "page_url": "",
+      "checks": [
+        "The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable"
+      ]
+    }
+  },
+  {
+    "text": "<aside>\n                    <h4>Aside Example</h4>\n                    <p>This is an <strong>aside</strong> element.</p>\n                </aside>",
+    "questions": {
+      "wcag_target_size": {
+        "type": "yes_no",
+        "instructions": "All touch targets must be 24px large, or leave sufficient space. Level: . All touch targets must be 24px large, or leave sufficient space. serious",
+        "criteria": {
+          "yes": "Violation detected",
+          "no": "No violation"
+        }
+      }
+    },
+    "labels": {
+      "wcag_target_size": "yes"
+    },
+    "metadata": {
+      "source": "GPT-4.1",
+      "rule_id": "target-size",
+      "wcag_level": "",
+      "wcag_title": "",
+      "page_url": "",
+      "checks": [
+        "Target has insufficient size (132.9px by 18px, should be at least 24px by 24px)",
+        "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.2px instead of at least 24px.",
+        "Target has insufficient size (60px by 18px, should be at least 24px by 24px)"
+      ]
+    }
+  },
+  {
+    "text": "<select>\n                    <optgroup label=\"Group 1\">\n                        <option value=\"1\">Option 1</option>\n                    </optgroup>\n                </select>",
+    "questions": {
+      "wcag_select_name": {
+        "type": "yes_no",
+        "instructions": "Select element must have an accessible name. Level: . Select element must have an accessible name. critical",
+        "criteria": {
+          "yes": "Violation detected",
+          "no": "No violation"
+        }
+      }
+    },
+    "labels": {
+      "wcag_select_name": "yes"
+    },
+    "metadata": {
+      "source": "GPT-4o",
+      "rule_id": "select-name",
+      "wcag_level": "",
+      "wcag_title": "",
+      "page_url": "",
+      "checks": [
+        "Element does not have an implicit (wrapped) <label>",
+        "Element does not have an explicit <label>",
+        "aria-label attribute does not exist or is empty"
+      ]
+    }
+  },
+  {
+    "text": "<a href=\"https://iana.org/domains/example\">Learn more</a>",
+    "questions": {
+      "wcag_color_contrast_enhanced": {
+        "type": "yes_no",
+        "instructions": "Elements must meet enhanced color contrast ratio thresholds. Level: . Elements must meet enhanced color contrast ratio thresholds. serious",
+        "criteria": {
+          "yes": "Violation detected",
+          "no": "No violation"
+        }
+      }
+    },
+    "labels": {
+      "wcag_color_contrast_enhanced": "yes"
+    },
+    "metadata": {
+      "source": "GPT-4o",
+      "rule_id": "color-contrast-enhanced",
+      "wcag_level": "",
+      "wcag_title": "",
+      "page_url": "",
+      "checks": [
+        "Element has insufficient color contrast of 4.76 (foreground color: #58669c, background color: #eeeeee, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 7:1"
+      ]
+    }
+  },
+  {
+    "text": "<a href=\"https://iana.org/domains/example\">Learn more</a>",
+    "questions": {
+      "wcag_heading_order": {
+        "type": "yes_no",
+        "instructions": "Heading levels should only increase by one. Level: . Heading levels should only increase by one. moderate",
+        "criteria": {
+          "yes": "Violation detected",
+          "no": "No violation"
+        }
+      }
+    },
+    "labels": {
+      "wcag_heading_order": "no"
+    },
+    "metadata": {
+      "source": "GPT-4o",
+      "rule_id": "heading-order",
+      "wcag_level": "",
+      "wcag_title": "",
+      "page_url": "",
+      "checks": [
+        "Heading order invalid"
+      ]
+    }
+  },
+  {
+    "text": "<a href=\"https://iana.org/domains/example\">Learn more</a>",
+    "questions": {
+      "wcag_label": {
+        "type": "yes_no",
+        "instructions": "Form elements must have labels. Level: . Form elements must have labels. critical",
+        "criteria": {
+          "yes": "Violation detected",
+          "no": "No violation"
+        }
+      }
+    },
+    "labels": {
+      "wcag_label": "yes"
+    },
+    "metadata": {
+      "source": "GPT-4o",
+      "rule_id": "label",
+      "wcag_level": "",
+      "wcag_title": "",
+      "page_url": "",
+      "checks": [
+        "Element does not have an implicit (wrapped) <label>",
+        "Element does not have an explicit <label>",
+        "aria-label attribute does not exist or is empty"
+      ]
+    }
+  },
+  {
+    "text": "<a href=\"https://iana.org/domains/example\">Learn more</a>",
+    "questions": {
+      "wcag_object_alt": {
+        "type": "yes_no",
+        "instructions": "<object> elements must have alternative text. Level: . <object> elements must have alternative text. serious",
+        "criteria": {
+          "yes": "Violation detected",
+          "no": "No violation"
+        }
+      }
+    },
+    "labels": {
+      "wcag_object_alt": "yes"
+    },
+    "metadata": {
+      "source": "GPT-4o",
+      "rule_id": "object-alt",
+      "wcag_level": "",
+      "wcag_title": "",
+      "page_url": "",
+      "checks": [
+        "aria-label attribute does not exist or is empty",
+        "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty",
+        "Element has no title attribute"
+      ]
+    }
+  },
+  {
+    "text": "<a href=\"https://iana.org/domains/example\">Learn more</a>",
+    "questions": {
+      "wcag_region": {
+        "type": "yes_no",
+        "instructions": "All page content should be contained by landmarks. Level: . All page content should be contained by landmarks. moderate",
+        "criteria": {
+          "yes": "Violation detected",
+          "no": "No violation"
+        }
+      }
+    },
+    "labels": {
+      "wcag_region": "no"
+    },
+    "metadata": {
+      "source": "GPT-4o",
+      "rule_id": "region",
+      "wcag_level": "",
+      "wcag_title": "",
+      "page_url": "",
+      "checks": [
+        "Some page content is not contained by landmarks"
+      ]
+    }
+  },
+  {
+    "text": "<object data=\"/AI-WCAG-Gauntlet/resources/Ordnance_survey_benchmark_Pinhead_icon.svg\" type=\"image/svg+xml\">\n            <p>Fallback content for object tag.</p>\n        </object>",
+    "questions": {
+      "wcag_object_alt": {
+        "type": "yes_no",
+        "instructions": "<object> elements must have alternative text. Level: . <object> elements must have alternative text. serious",
+        "criteria": {
+          "yes": "Violation detected",
+          "no": "No violation"
+        }
+      }
+    },
+    "labels": {
+      "wcag_object_alt": "yes"
+    },
+    "metadata": {
+      "source": "GPT-4o",
+      "rule_id": "object-alt",
+      "wcag_level": "",
+      "wcag_title": "",
+      "page_url": "",
+      "checks": [
+        "aria-label attribute does not exist or is empty",
+        "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty",
+        "Element has no title attribute"
+      ]
+    }
+  },
+  {
+    "text": "<object data=\"/AI-WCAG-Gauntlet/resources/Ordnance_survey_benchmark_Pinhead_icon.svg\" type=\"image/svg+xml\">\n            <p>Fallback content for object tag.</p>\n        </object>",
+    "questions": {
+      "wcag_region": {
+        "type": "yes_no",
+        "instructions": "All page content should be contained by landmarks. Level: . All page content should be contained by landmarks. moderate",
+        "criteria": {
+          "yes": "Violation detected",
+          "no": "No violation"
+        }
+      }
+    },
+    "labels": {
+      "wcag_region": "no"
+    },
+    "metadata": {
+      "source": "GPT-4o",
+      "rule_id": "region",
+      "wcag_level": "",
+      "wcag_title": "",
+      "page_url": "",
+      "checks": [
+        "Some page content is not contained by landmarks"
+      ]
+    }
+  },
+  {
+    "text": "<object data=\"/AI-WCAG-Gauntlet/resources/Ordnance_survey_benchmark_Pinhead_icon.svg\" type=\"image/svg+xml\">\n            <p>Fallback content for object tag.</p>\n        </object>",
+    "questions": {
+      "wcag_select_name": {
+        "type": "yes_no",
+        "instructions": "Select element must have an accessible name. Level: . Select element must have an accessible name. critical",
+        "criteria": {
+          "yes": "Violation detected",
+          "no": "No violation"
+        }
+      }
+    },
+    "labels": {
+      "wcag_select_name": "yes"
+    },
+    "metadata": {
+      "source": "GPT-4o",
+      "rule_id": "select-name",
+      "wcag_level": "",
+      "wcag_title": "",
+      "page_url": "",
+      "checks": [
+        "Element does not have an implicit (wrapped) <label>",
+        "Element does not have an explicit <label>",
+        "aria-label attribute does not exist or is empty"
+      ]
+    }
+  },
+  {
+    "text": "<object data=\"/AI-WCAG-Gauntlet/resources/Ordnance_survey_benchmark_Pinhead_icon.svg\" type=\"image/svg+xml\">\n            <p>Fallback content for object tag.</p>\n        </object>",
+    "questions": {
+      "wcag_target_size": {
+        "type": "yes_no",
+        "instructions": "All touch targets must be 24px large, or leave sufficient space. Level: . All touch targets must be 24px large, or leave sufficient space. serious",
+        "criteria": {
+          "yes": "Violation detected",
+          "no": "No violation"
+        }
+      }
+    },
+    "labels": {
+      "wcag_target_size": "yes"
+    },
+    "metadata": {
+      "source": "GPT-4o",
+      "rule_id": "target-size",
+      "wcag_level": "",
+      "wcag_title": "",
+      "page_url": "",
+      "checks": [
+        "Target has insufficient size (42.7px by 17px, should be at least 24px by 24px)",
+        "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 12px instead of at least 24px.",
+        "Target has insufficient size (41.8px by 17px, should be at least 24px by 24px)"
+      ]
+    }
+  },
+  {
+    "text": "<a href=\"#\" style=\"padding: 16px 32px; font-size: 18px; color: #007BFF; background-color: #f0f0f0;\">Link 2</a>",
+    "questions": {
+      "wcag_color_contrast": {
+        "type": "yes_no",
+        "instructions": "Elements must meet minimum color contrast ratio thresholds. Level: . Elements must meet minimum color contrast ratio thresholds. serious",
+        "criteria": {
+          "yes": "Violation detected",
+          "no": "No violation"
+        }
+      }
+    },
+    "labels": {
+      "wcag_color_contrast": "yes"
+    },
+    "metadata": {
+      "source": "command-a-03-2025",
+      "rule_id": "color-contrast",
+      "wcag_level": "",
+      "wcag_title": "",
+      "page_url": "",
+      "checks": [
+        "Element has insufficient color contrast of 3.49 (foreground color: #007bff, background color: #f0f0f0, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+      ]
+    }
+  },
+  {
+    "text": "<a href=\"#\" style=\"padding: 16px 32px; font-size: 18px; color: #007BFF; background-color: #f0f0f0;\">Link 2</a>",
+    "questions": {
+      "wcag_target_size": {
+        "type": "yes_no",
+        "instructions": "All touch targets must be 24px large, or leave sufficient space. Level: . All touch targets must be 24px large, or leave sufficient space. serious",
+        "criteria": {
+          "yes": "Violation detected",
+          "no": "No violation"
+        }
+      }
+    },
+    "labels": {
+      "wcag_target_size": "yes"
+    },
+    "metadata": {
+      "source": "command-a-03-2025",
+      "rule_id": "target-size",
+      "wcag_level": "",
+      "wcag_title": "",
+      "page_url": "",
+      "checks": [
+        "Target has insufficient size because it is partially obscured (smallest space is 92px by 21px, should be at least 24px by 24px)",
+        "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 18px instead of at least 24px.",
+        "Target has insufficient size because it is partially obscured (smallest space is 93px by 21px, should be at least 24px by 24px)"
+      ]
+    }
+  },
+  {
+    "text": "<a href=\"#main\" class=\"nav-link\" aria-current=\"page\"><span>Home</span></a>",
+    "questions": {
+      "wcag_target_size": {
+        "type": "yes_no",
+        "instructions": "All touch targets must be 24px large, or leave sufficient space. Level: . All touch targets must be 24px large, or leave sufficient space. serious",
+        "criteria": {
+          "yes": "Violation detected",
+          "no": "No violation"
+        }
+      }
+    },
+    "labels": {
+      "wcag_target_size": "yes"
+    },
+    "metadata": {
+      "source": "command-a-reasoning-08-2025",
+      "rule_id": "target-size",
+      "wcag_level": "",
+      "wcag_title": "",
+      "page_url": "",
+      "checks": [
+        "Target has insufficient size (39.1px by 17px, should be at least 24px by 24px)",
+        "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 13.8px instead of at least 24px.",
+        "Target has insufficient size (50.7px by 17px, should be at least 24px by 24px)"
+      ]
+    }
+  },
+  {
+    "text": "<footer id=\"footer\" role=\"contentinfo\"><p>\u00a9 2023</p></footer>",
+    "questions": {
+      "wcag_landmark_contentinfo_is_top_level": {
+        "type": "yes_no",
+        "instructions": "Contentinfo landmark should not be contained in another landmark. Level: . Contentinfo landmark should not be contained in another landmark. moderate",
+        "criteria": {
+          "yes": "Violation detected",
+          "no": "No violation"
+        }
+      }
+    },
+    "labels": {
+      "wcag_landmark_contentinfo_is_top_level": "no"
+    },
+    "metadata": {
+      "source": "meta-llama-llama-4-scout-17b-16e-instruct",
+      "rule_id": "landmark-contentinfo-is-top-level",
+      "wcag_level": "",
+      "wcag_title": "",
+      "page_url": "",
+      "checks": [
+        "The contentinfo landmark is contained in another landmark."
+      ]
+    }
+  },
+  {
+    "text": "<a href=\"https://iana.org/domains/example\">Learn more</a>",
+    "questions": {
+      "wcag_color_contrast_enhanced": {
+        "type": "yes_no",
+        "instructions": "Elements must meet enhanced color contrast ratio thresholds. Level: . Elements must meet enhanced color contrast ratio thresholds. serious",
+        "criteria": {
+          "yes": "Violation detected",
+          "no": "No violation"
+        }
+      }
+    },
+    "labels": {
+      "wcag_color_contrast_enhanced": "yes"
+    },
+    "metadata": {
+      "source": "mistral-large-latest",
+      "rule_id": "color-contrast-enhanced",
+      "wcag_level": "",
+      "wcag_title": "",
+      "page_url": "",
+      "checks": [
+        "Element has insufficient color contrast of 4.76 (foreground color: #58669c, background color: #eeeeee, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 7:1"
+      ]
+    }
+  },
+  {
+    "text": "<a href=\"https://iana.org/domains/example\">Learn more</a>",
+    "questions": {
+      "wcag_heading_order": {
+        "type": "yes_no",
+        "instructions": "Heading levels should only increase by one. Level: . Heading levels should only increase by one. moderate",
+        "criteria": {
+          "yes": "Violation detected",
+          "no": "No violation"
+        }
+      }
+    },
+    "labels": {
+      "wcag_heading_order": "no"
+    },
+    "metadata": {
+      "source": "mistral-large-latest",
+      "rule_id": "heading-order",
+      "wcag_level": "",
+      "wcag_title": "",
+      "page_url": "",
+      "checks": [
+        "Heading order invalid"
+      ]
+    }
+  },
+  {
+    "text": "<a href=\"https://iana.org/domains/example\">Learn more</a>",
+    "questions": {
+      "wcag_landmark_contentinfo_is_top_level": {
+        "type": "yes_no",
+        "instructions": "Contentinfo landmark should not be contained in another landmark. Level: . Contentinfo landmark should not be contained in another landmark. moderate",
+        "criteria": {
+          "yes": "Violation detected",
+          "no": "No violation"
+        }
+      }
+    },
+    "labels": {
+      "wcag_landmark_contentinfo_is_top_level": "no"
+    },
+    "metadata": {
+      "source": "mistral-large-latest",
+      "rule_id": "landmark-contentinfo-is-top-level",
+      "wcag_level": "",
+      "wcag_title": "",
+      "page_url": "",
+      "checks": [
+        "The null landmark is contained in another landmark."
+      ]
+    }
+  },
+  {
+    "text": "<a href=\"https://iana.org/domains/example\">Learn more</a>",
+    "questions": {
+      "wcag_target_size": {
+        "type": "yes_no",
+        "instructions": "All touch targets must be 24px large, or leave sufficient space. Level: . All touch targets must be 24px large, or leave sufficient space. serious",
+        "criteria": {
+          "yes": "Violation detected",
+          "no": "No violation"
+        }
+      }
+    },
+    "labels": {
+      "wcag_target_size": "yes"
+    },
+    "metadata": {
+      "source": "mistral-large-latest",
+      "rule_id": "target-size",
+      "wcag_level": "",
+      "wcag_title": "",
+      "page_url": "",
+      "checks": [
+        "Target has insufficient size (39.1px by 17px, should be at least 24px by 24px)",
+        "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px.",
+        "Target has insufficient size (82.2px by 17px, should be at least 24px by 24px)"
+      ]
+    }
+  },
+  {
+    "text": "<input list=\"browsers\" name=\"browser\" id=\"browser\">",
+    "questions": {
+      "wcag_label": {
+        "type": "yes_no",
+        "instructions": "Form elements must have labels. Level: . Form elements must have labels. critical",
+        "criteria": {
+          "yes": "Violation detected",
+          "no": "No violation"
+        }
+      }
+    },
+    "labels": {
+      "wcag_label": "yes"
+    },
+    "metadata": {
+      "source": "mistral-medium-latest",
+      "rule_id": "label",
+      "wcag_level": "",
+      "wcag_title": "",
+      "page_url": "",
+      "checks": [
+        "Element does not have an implicit (wrapped) <label>",
+        "Element does not have an explicit <label>",
+        "aria-label attribute does not exist or is empty"
+      ]
+    }
+  },
+  {
+    "text": "<input list=\"browsers\" name=\"browser\" id=\"browser\">",
+    "questions": {
+      "wcag_landmark_complementary_is_top_level": {
+        "type": "yes_no",
+        "instructions": "Aside should not be contained in another landmark. Level: . Aside should not be contained in another landmark. moderate",
+        "criteria": {
+          "yes": "Violation detected",
+          "no": "No violation"
+        }
+      }
+    },
+    "labels": {
+      "wcag_landmark_complementary_is_top_level": "no"
+    },
+    "metadata": {
+      "source": "mistral-medium-latest",
+      "rule_id": "landmark-complementary-is-top-level",
+      "wcag_level": "",
+      "wcag_title": "",
+      "page_url": "",
+      "checks": [
+        "The null landmark is contained in another landmark."
+      ]
+    }
+  },
+  {
+    "text": "<input list=\"browsers\" name=\"browser\" id=\"browser\">",
+    "questions": {
+      "wcag_target_size": {
+        "type": "yes_no",
+        "instructions": "All touch targets must be 24px large, or leave sufficient space. Level: . All touch targets must be 24px large, or leave sufficient space. serious",
+        "criteria": {
+          "yes": "Violation detected",
+          "no": "No violation"
+        }
+      }
+    },
+    "labels": {
+      "wcag_target_size": "yes"
+    },
+    "metadata": {
+      "source": "mistral-medium-latest",
+      "rule_id": "target-size",
+      "wcag_level": "",
+      "wcag_title": "",
+      "page_url": "",
+      "checks": [
+        "Target has insufficient size (39.1px by 17px, should be at least 24px by 24px)",
+        "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 12px instead of at least 24px.",
+        "Target has insufficient size (40px by 17px, should be at least 24px by 24px)"
+      ]
+    }
+  },
+  {
+    "text": "<area shape=\"rect\" coords=\"50,50,150,150\" href=\"#location1\" alt=\"Location 1\" aria-label=\"Location 1: Downtown Office\" tabindex=\"0\" role=\"button\">",
+    "questions": {
+      "wcag_aria_allowed_role": {
+        "type": "yes_no",
+        "instructions": "ARIA role should be appropriate for the element. Level: . ARIA role should be appropriate for the element. minor",
+        "criteria": {
+          "yes": "Violation detected",
+          "no": "No violation"
+        }
+      }
+    },
+    "labels": {
+      "wcag_aria_allowed_role": "no"
+    },
+    "metadata": {
+      "source": "mistral-small-latest",
+      "rule_id": "aria-allowed-role",
+      "wcag_level": "",
+      "wcag_title": "",
+      "page_url": "",
+      "checks": [
+        "ARIA role button is not allowed for given element"
+      ]
+    }
+  },
+  {
+    "text": "<area shape=\"rect\" coords=\"50,50,150,150\" href=\"#location1\" alt=\"Location 1\" aria-label=\"Location 1: Downtown Office\" tabindex=\"0\" role=\"button\">",
+    "questions": {
+      "wcag_color_contrast_enhanced": {
+        "type": "yes_no",
+        "instructions": "Elements must meet enhanced color contrast ratio thresholds. Level: . Elements must meet enhanced color contrast ratio thresholds. serious",
+        "criteria": {
+          "yes": "Violation detected",
+          "no": "No violation"
+        }
+      }
+    },
+    "labels": {
+      "wcag_color_contrast_enhanced": "yes"
+    },
+    "metadata": {
+      "source": "mistral-small-latest",
+      "rule_id": "color-contrast-enhanced",
+      "wcag_level": "",
+      "wcag_title": "",
+      "page_url": "",
+      "checks": [
+        "Element has insufficient color contrast of 4.76 (foreground color: #58669c, background color: #eeeeee, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 7:1"
+      ]
+    }
+  },
+  {
+    "text": "<area shape=\"rect\" coords=\"50,50,150,150\" href=\"#location1\" alt=\"Location 1\" aria-label=\"Location 1: Downtown Office\" tabindex=\"0\" role=\"button\">",
+    "questions": {
+      "wcag_heading_order": {
+        "type": "yes_no",
+        "instructions": "Heading levels should only increase by one. Level: . Heading levels should only increase by one. moderate",
+        "criteria": {
+          "yes": "Violation detected",
+          "no": "No violation"
+        }
+      }
+    },
+    "labels": {
+      "wcag_heading_order": "no"
+    },
+    "metadata": {
+      "source": "mistral-small-latest",
+      "rule_id": "heading-order",
+      "wcag_level": "",
+      "wcag_title": "",
+      "page_url": "",
+      "checks": [
+        "Heading order invalid"
+      ]
+    }
+  },
+  {
+    "text": "<area shape=\"rect\" coords=\"50,50,150,150\" href=\"#location1\" alt=\"Location 1\" aria-label=\"Location 1: Downtown Office\" tabindex=\"0\" role=\"button\">",
+    "questions": {
+      "wcag_target_size": {
+        "type": "yes_no",
+        "instructions": "All touch targets must be 24px large, or leave sufficient space. Level: . All touch targets must be 24px large, or leave sufficient space. serious",
+        "criteria": {
+          "yes": "Violation detected",
+          "no": "No violation"
+        }
+      }
+    },
+    "labels": {
+      "wcag_target_size": "yes"
+    },
+    "metadata": {
+      "source": "mistral-small-latest",
+      "rule_id": "target-size",
+      "wcag_level": "",
+      "wcag_title": "",
+      "page_url": "",
+      "checks": [
+        "Target has insufficient size (79.1px by 17px, should be at least 24px by 24px)",
+        "Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 19px instead of at least 24px.",
+        "Target has insufficient size (54.2px by 17px, should be at least 24px by 24px)"
+      ]
+    }
+  }
+]
